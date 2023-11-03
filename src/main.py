@@ -34,6 +34,8 @@ if __name__ == '__main__':
     display = Display()
     window.addToVLayout(display)
 
+    # Grid
+
     button = Button('texto do botão')
     window.addToVLayout(button)
     button2 = Button('texto do botão')

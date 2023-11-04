@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
     # Grid
     buttonsGrid = ButtonsGrid()
-    window.vLayout.addLayout(buttonsGrid)
+    window.vLayout.addLayout(buttonsGrid, info)
 
     # Executa tudo
     window.adjustFixedSize()
